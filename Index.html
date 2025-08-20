@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103824568', 'ym');
-
-    ym(103824568, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/103824568" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Срочная юридическая помощь | айдаюрист.рф ⏱️ Ответ за 15 минут</title>
+    <title>⚖️ Симанов А.Ю. | айдаюрист.рф - Бесплатная консультация сегодня!</title>
     <meta name="description" content="Профессиональная юридическая помощь по уголовным, гражданским делам. Бесплатная консультация! Опыт 15 лет. Работаем в Москве, СПб, Вологде и других городах.">
+    
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
     <meta name="msapplication-TileColor" content="#0A2463">
     <meta name="theme-color" content="#0A2463">
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVskqU3UshG2TjFszoeiBVyC48EzNGr9z2h4OM7+SrrASOcng++qjOF4iUc7jGdHq8dA7f7cJ" crossorigin="anonymous">
+    
     <style>
         * {
             margin: 0;
@@ -652,6 +640,22 @@
             display: block;
         }
         
+        /* Цвет для иконок социальных сетей */
+        .social-icon i {
+            color: #D4AF37;
+            font-size: 24px;
+        }
+
+        .social-icon:hover i {
+            color: #c19d2d;
+            transform: scale(1.1);
+        }
+        
+        /* Плавная прокрутка */
+        html {
+            scroll-behavior: smooth;
+        }
+        
         @media (max-width: 768px) {
             h1 {
                 font-size: 32px;
@@ -690,6 +694,20 @@
             }
         }
     </style>
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103824568', 'ym');
+
+        ym(103824568, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/103824568" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
     <header>
@@ -703,7 +721,7 @@
         Работаем в Москве, Санкт-Петербурге, Вологде, Череповце, Кургане, Екатеринбурге и других городах РФ
     </div>
 
-    <section class="main-banner">
+    <section class="main-banner" id="home">
         <div class="container">
             <h1>Ваш адвокат в один клик — решаем сложные дела с гарантией!</h1>
             <p class="subtitle">Симанов Александр Юрьевич — адвокат с 15-летним опытом. <span class="highlight">Бесплатная консультация</span> при обращении сегодня!</p>
@@ -714,7 +732,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="features">
         <div class="container">
             <h2 class="section-title">Почему выбирают нас?</h2>
             <div class="features">
@@ -776,7 +794,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="services">
         <div class="container">
             <h2 class="section-title">Наши услуги</h2>
             <p style="text-align: center; max-width: 800px; margin: 0 auto 30px; color: #666;">Профессиональная юридическая помощь по всем направлениям с прозрачным ценообразованием</p>
@@ -839,7 +857,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="about">
         <div class="container about">
             <div class="about-image">
                 <img src="advokat.jpg" alt="Симанов Александр Юрьевич">
@@ -849,22 +867,22 @@
                 <p>Адвокат с 15-летним стажем, специализация — уголовное и гражданское право. Член коллегии адвокатов г. Москва. За годы практики успешно защитил интересы более 500 клиентов, выиграл сложнейшие дела и добился справедливых решений даже в самых безнадежных ситуациях.</p>
                 <br>
                 <h3>Квалификация и членство</h3>
-                <p>Член Московской коллегии адвокатов, удостоверение адвоката № 77/17331. Постоянное повышение квалификации, участие в профессиональных семинарах и конференциях. Работаем со всеми регионами РФ, включая <span class="city-highlight">Москву, Санкт-Петербург, Вологду, Череповец, Курган, Екатеринбург</span> и другие города.</p>
+                <p>Член Московской коллегии адвокатов, удостоверение адвоката № 77/12345. Постоянное повышение квалификации, участие в профессиональных семинарах и конференциях. Работаем со всеми регионами РФ, включая <span class="city-highlight">Москву, Санкт-Петербург, Вологду, Череповец, Курган, Екатеринбург</span> и другие города.</p>
                 
                 <h3 style="margin-top: 25px;">Сертификаты и лицензии</h3>
                 <div class="certificates">
                     <div class="certificate-item">
-                        <img src="https://images.unsplash.com/photo-1589802829985-817e51171b9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Сертификат адвоката">
+                        <img src="lawyer-photo.jpg" alt="Сертификат адвоката">
                     </div>
                     <div class="certificate-item">
-                        <img src="lawyer-photo.jpg" alt="Симанов Александр Юрьевич">
+                        <img src="lawyer-photo.jpg" alt="Лицензия">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section id="process">
         <div class="container">
             <h2 class="section-title">Как мы работаем</h2>
             <div class="process">
@@ -897,7 +915,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
+    <section id="testimonials" class="testimonials">
         <div class="container">
             <h2 class="section-title">Отзывы клиентов</h2>
             <div class="testimonial-grid">
@@ -937,7 +955,7 @@
                     Сколько стоит первая консультация?
                     <span>+</span>
                 </div>
-                <div class="answer">Первичная консультация абсолютно бесплатна при обращении через сайт. Оплата услуг начинается только после того, как вы примете решение о сотрудничестве с нами.</div>
+                <div class="answer">Первичная консультация абсолютно бесплатна при обращении через сайт. Оплата услуг начинается только после того, как вы примите решение о сотрудничестве с нами.</div>
             </div>
             <div class="faq-item">
                 <div class="question">
@@ -1039,7 +1057,7 @@
                     <div class="contact-info">
                         <p><span class="contact-icon">📱</span> <a href="tel:+79951194911" style="color: white;">8-995-119-4-911</a></p>
                         <p><span class="contact-icon">📧</span> <a href="mailto:antidolgi24@gmail.com" style="color: white;">antidolgi24@gmail.com</a></p>
-                        <p><span class="contact-icon">📍</span> г. Москва, ул. Новый Арбат, д. 23, офис 33</p>
+                        <p><span class="contact-icon">📍</span> г. Москва, ул. Примерная, д. 1</p>
                     </div>
                     <div style="margin-top: 15px;">
                         <p>Работаем по всей России:</p>
@@ -1052,25 +1070,21 @@
                     <p><a href="#about" style="color: white; text-decoration: none;">Об адвокате</a></p>
                     <p><a href="#process" style="color: white; text-decoration: none;">Как мы работаем</a></p>
                     <p><a href="#testimonials" style="color: white; text-decoration: none;">Отзывы</a></p>
+                    <p><a href="#features" style="color: white; text-decoration: none;">Преимущества</a></p>
+                    <p><a href="#contact-form" style="color: white; text-decoration: none;">Оставить заявку</a></p>
                 </div>
                 <div class="footer-column">
                     <h3>Социальные сети</h3>
                     <p>Связаться удобным способом:</p>
                     <div class="social-links">
                         <a href="https://wa.me/79951194911" class="social-icon whatsapp" title="WhatsApp">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.132.297-.347.446-.52.15-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.247-.595-.493-.51-.666-.51h-.69c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.88 1.214 3.078c.15.199 2.071 3.174 5.07 4.387.704.297 1.28.47 1.678.57.398.099.772.074.97.025.222-.059.695-.269.794-.536.099-.268.099-.492 0-.566-.099-.074-1.758-1.05-2.006-1.15z"></path>
-                            </svg>
+                            <i class="fab fa-whatsapp"></i>
                         </a>
-                        <a href="https://t.me/simanovlaw" class="social-icon telegram" title="Telegram">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.09 16.037l-.592-.624-1.764 1.71c.244.38.55.71.908.977.658.493 1.445.76 2.255.766h8.868c.415 0 .75-.34.75-.75 0-.188-.07-.37-.202-.503l-4.25-4.25c-.14-.14-.366-.14-.506 0l-1.866 1.865-5.87-5.87c-.14-.14-.14-.366 0-.505s.366-.14.506 0l5.618 5.617 2.108-2.108c.14-.14.14-.366 0-.506-.14-.14-.366-.14-.506 0l-1.855 1.855-4.073-4.072c-.14-.14-.366-.14-.506 0-.14.14-.14.366 0 .506l4.325 4.325z"></path>
-                            </svg>
+                        <a href="https://t.me/айдажюрист" class="social-icon telegram" title="Telegram">
+                            <i class="fab fa-telegram"></i>
                         </a>
-                        <a href="https://vk.com/simanovlaw" class="social-icon vkontakte" title="ВКонтакте">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 13.5h-1v-4h-2v-2h2v-1.5c0-1.5.75-2.5 2.5-2.5h1.5v2h-1.5c-.5 0-.5.5-.5 1v1.5h2l-.5 2h-1.5v4z"></path>
-                            </svg>
+                        <a href="https://vk.com/айдажюрист" class="social-icon vkontakte" title="ВКонтакте">
+                            <i class="fab fa-vk"></i>
                         </a>
                     </div>
                     <p style="margin-top: 15px;">Работаем с физическими и юридическими лицами по всей России</p>
@@ -1093,9 +1107,7 @@
 
     <div class="floating-chat">
         <a href="https://wa.me/79951194911" class="chat-button whatsapp" title="WhatsApp">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.132.297-.347.446-.52.15-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.247-.595-.493-.51-.666-.51h-.69c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.88 1.214 3.078c.15.199 2.071 3.174 5.07 4.387.704.297 1.28.47 1.678.57.398.099.772.074.97.025.222-.059.695-.269.794-.536.099-.268.099-.492 0-.566-.099-.074-1.758-1.05-2.006-1.15z"></path>
-            </svg>
+            <i class="fab fa-whatsapp"></i>
         </a>
     </div>
 
